@@ -6,11 +6,11 @@ import {ReactNode} from "react";
 
 const queryClient = new QueryClient()
 
-type Props = {
-    children?: ReactNode
-}
+// interface Props{
+//     children?: ReactNode
+// }
 
-const QueryWrapper = ({children} :Props)=>(
+const QueryWrapper = ({children})=>(
     <QueryClientProvider client={queryClient}>
         <Toaster/>
         {children}
