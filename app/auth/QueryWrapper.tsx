@@ -6,7 +6,7 @@ import {ReactNode} from "react";
 
 const queryClient = new QueryClient()
 
-interface Props{
+type Props = {
     children?: ReactNode
 }
 
